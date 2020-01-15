@@ -1,4 +1,3 @@
-// Code ClickityClick Component Here
 import React from 'react';
  
 export default class ClickityClick extends React.Component {
@@ -10,3 +9,5 @@ handleClick = () =>{this.setState(previous=>{
 })
 console.log(this.state.clicked)}
 render(){return(<div onClick={this.handleClick}>Click Me!</div>)}}
+
+
